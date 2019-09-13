@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeStatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1080dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textAP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:text="Access Point"
+                android:textSize="22dp"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="39dp" />
+
+            <TextView
+                android:id="@+id/textSerialNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="83dp"
+                android:text="Serial Number" />
+
+            <TextView
+                android:id="@+id/textMacAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="122dp"
+                android:hint="Mac Address" />
+
+            <TextView
+                android:id="@+id/textMerk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="161dp"
+                android:hint="Merk" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextKeterangan"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="762dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Keterangan" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAlasan"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="682dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Alasan" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAlamat4"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="602dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Alamat4" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAlamat3"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="522dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Alamat3" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAlamat2"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="442dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Alamat2" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAlamat"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="368dp"
+                android:ems="10"
+                app:met_floatingLabel="normal"
+                android:inputType="textPersonName"
+                android:hint="Alamat" />
+
+            <Spinner
+                android:id="@+id/spinnerTextStatus"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="294dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Status" />
+
+            <Spinner
+                android:id="@+id/spinnerTextTipe"
+                android:layout_width="342dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="213dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Tipe" />
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="70dp"
+                android:text="Update" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/spinnerTextStatus"
+                android:layout_alignStart="@+id/editTextKeterangan"
+                android:layout_marginBottom="-294dp"
+                android:text="Status"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/spinnerTextTipe"
+                android:layout_alignStart="@+id/editTextKeterangan"
+                android:layout_marginBottom="-213dp"
+                android:text="Tipe"
+                android:textSize="11dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
